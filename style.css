@@ -42,6 +42,7 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .container .option_item {
@@ -85,4 +86,30 @@ body {
 .decoration-4 {
     text-align: center;
     padding: 30px 20px;
+}
+
+.wrapper {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+.wrapper .box {
+    background: rgb(219, 167, 167);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    position: relative;
+
+}
+
+.wrapper .box h1 {
+    margin-top: 90px;
+}
+
+.wrapper .box .icon {
+    padding-left: 2px;
 }
