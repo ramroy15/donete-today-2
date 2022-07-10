@@ -1,0 +1,29 @@
+.decoration {
+    text-align: center;
+    color: white;
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    padding: 10% 20%;
+    background-size: 100%;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 88, 11);
+    padding: 8px 16px;
+    border-radius: 5px;
+
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.size {
+    font-size: 48px;
+}
